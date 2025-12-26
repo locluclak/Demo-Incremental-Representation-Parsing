@@ -1,6 +1,7 @@
 # [CS221] Incremental Representation for Parsing
 
 Đồ án môn học: **Xử lý ngôn ngữ tự nhiên**
+
 Giảng viên hướng dẫn: **TS. Nguyễn Thị Quý**
 
 ---
@@ -30,7 +31,20 @@ Dự án tập trung tìm hiểu và thực nghiệm phương pháp **Incrementa
 ![Web Demo](demo.png)
 
 ### Hướng dẫn khởi chạy:
-1. Cài đặt các thư viện, setup, tải model theo repository gốc: [thomaslu2000/Incremental-Parsing-Representations](https://github.com/thomaslu2000/Incremental-Parsing-Representations)
+1. Cài đặt các tải model theo repository gốc: [thomaslu2000/Incremental-Parsing-Representations](https://github.com/thomaslu2000/Incremental-Parsing-Representations)
+
+#### Môi trường Python & Framework chính
+* **Python:** Phiên bản 3.7 hoặc cao hơn.
+* **PyTorch:** Phiên bản 1.6.0 hoặc các phiên bản tương thích mới hơn.
+
+#### Các thư viện phụ thuộc (Dependencies)
+Cài đặt đầy đủ các gói cần thiết cho thư viện `benepar` và các thành phần liên quan:
+* **NLTK:** Phiên bản 3.2.
+* **torch-struct:** Phiên bản 0.4.
+* **transformers:** Phiên bản 4.3.0 hoặc tương thích.
+* **pytokenizations:** Phiên bản 0.7.2 hoặc tương thích.
+* **clusopt**: Thư viện hỗ trợ tối ưu hóa.
+* **torch_struct**: Thư viện cấu trúc cho PyTorch.
 
 2. Chạy ứng dụng:
 ```bash
