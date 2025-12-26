@@ -161,7 +161,7 @@ if 'animating' not in st.session_state:
     st.session_state.animating = False
 
 # --- Title ---
-st.title("🌳 Incremental Constituency Parsing")
+st.title("🌳 Incremental Representation for Parsing")
 
 # --- Two Column Layout (4:6 Ratio) ---
 col_input, col_output = st.columns([4, 6], gap="large")
