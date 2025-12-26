@@ -45,3 +45,6 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+
+32_model
+en_label_gpt2_medium_cat256

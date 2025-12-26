@@ -1,0 +1,4 @@
+python src/main.py test --model-path en_label_gpt2_medium_cat256 --test-path data/23.auto.clean --subbatch-max-tokens 750 --evalb-dir EVALB/
+
+
+python src/main.py test --model-path 32_model --test-path data/23.auto.clean --subbatch-max-tokens 750 --evalb-dir EVALB/

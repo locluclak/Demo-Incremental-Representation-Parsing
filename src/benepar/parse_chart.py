@@ -362,6 +362,7 @@ class ChartParser(nn.Module, parse_base.BaseParser):
         else:
             # Single-file format used for saving checkpoints during training.
             data = torch.load(model_path, map_location="cpu")
+            print(data.keys())
             config = data["config"]
             state_dict = data["state_dict"]
 
